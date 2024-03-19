@@ -1,17 +1,15 @@
 // App.js
 import React from 'react';
+import { MarkdownProvider } from './context/MarkdownContext';
 import RawInputArea from './components/RawInputArea';
-import MarkdownSanitized from './components/MarkdownSanitized';
-import MarkdownContext from './context/MarkdownContext';
 
 const App = () => {
   return (
-    <MarkdownContext.Provider value={{ rawText, handleChangeRawInputedText, getMarkDownAsHTMLOutput }}>
+    <MarkdownProvider>
       <div className="App">
         <RawInputArea />
-        <MarkdownSanitized />
       </div>
-    </MarkdownContext.Provider>
+    </MarkdownProvider>
   );
 };
 
