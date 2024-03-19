@@ -1,68 +1,67 @@
 /* styles.css */
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    font-family: Arial, sans-serif;
-  }
-  
-  .title {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .textarea-container {
-    width: 80%;
-    max-width: 800px; /* Increase max-width for wider textarea */
-    margin-bottom: 20px;
-  }
-  
-  textarea {
-    width: 100%;
-    height: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-  }
-  
-  .button-container {
-    margin-bottom: 20px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  .output-container {
-    width: 80%;
-    max-width: 800px; /* Increase max-width for wider Markdown Sanitized Output */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .output-container h2 {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    margin: 0;
-  }
-  
-  .markdown-output {
-    padding: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.textarea-container {
+  width: 80%;
+  max-width: 800px; /* Increase max-width for wider textarea */
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.output-container {
+  width: 80%;
+  max-width: 1400; /* Increase max-width for wider Markdown Sanitized Output */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.output-container h2 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.markdown-output {
+  padding: 10px;
+}
