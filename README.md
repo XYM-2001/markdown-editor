@@ -36,18 +36,18 @@ Markdown Editor is a simple web application built using React. It allows users t
 
 ## Usage
 
-Open the application in your web browser (http://localhost:3000 by default).
-Enter Markdown text in the Raw Input Area.
-Click the "Convert to HTML" button to see the live preview of the rendered HTML output in the Markdown Sanitized Output section.
-Edit the Markdown text or click the button again to update the HTML output.
-Technologies Used
-React
-JavaScript
-HTML
-CSS
-Remarkable (Markdown parsing library)
-Contributing
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+- Open the application in your web browser (http://localhost:3000 by default).
+  Enter Markdown text in the Raw Input Area.
+  Click the "Convert to HTML" button to see the live preview of the rendered HTML output in the Markdown Sanitized Output section.
+  Edit the Markdown text or click the button again to update the HTML output.
+  Technologies Used
+  React
+  JavaScript
+  HTML
+  CSS
+  Remarkable (Markdown parsing library)
+  Contributing
+  Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
 License
 This project is licensed under the MIT License.
