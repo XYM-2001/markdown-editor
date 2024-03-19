@@ -1,6 +1,6 @@
 # Markdown Editor
 
-![Markdown Editor](https://github.com/XYM-2001/markdown-editor/blob/master/image.png)
+![Markdown Editor](./image.png)
 
 ## Overview
 
