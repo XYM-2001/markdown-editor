@@ -1,5 +1,5 @@
-// useMarkdownEditor.js
 import { useState } from 'react';
+import ReactMarkdown from 'react-markdown'; // Import ReactMarkdown library
 import MarkdownContext from '../context/MarkdownContext';
 
 const useMarkdownEditor = () => {
@@ -10,8 +10,8 @@ const useMarkdownEditor = () => {
     };
 
     const getMarkDownAsHTMLOutput = () => {
-        // Implement Markdown to HTML conversion logic here
-        return `<div>${rawText}</div>`;
+        // Use ReactMarkdown to convert Markdown to HTML
+        return <ReactMarkdown>{rawText}</ReactMarkdown>;
     };
 
     return { rawText, handleChangeRawInputedText, getMarkDownAsHTMLOutput };

@@ -1,13 +1,11 @@
+// MarkdownSanitized.jsx
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 
-const MarkdownSanitized = ({ rawText }) => {
+const MarkdownSanitized = ({ htmlOutput }) => {
   return (
     <div>
       <h2>Markdown Sanitized Output</h2>
-      <div className="markdown-output">
-        <ReactMarkdown>{rawText}</ReactMarkdown>
-      </div>
+      <div className="markdown-output" dangerouslySetInnerHTML={{ __html: htmlOutput }} />
     </div>
   );
 };
