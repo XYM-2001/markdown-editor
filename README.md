@@ -1,6 +1,6 @@
 # Markdown Editor
 
-![Markdown Editor](https://example.com/your_image_link.png)
+![Markdown Editor](https://github.com/XYM-2001/markdown-editor/blob/master/image.png)
 
 ## Overview
 
@@ -17,7 +17,7 @@ Markdown Editor is a simple web application built using React. It allows users t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/markdown-editor.git
+   git clone https://github.com/XYM-2001/markdown-editor.git
    ```
 2. Navigate to the project directory:
 
